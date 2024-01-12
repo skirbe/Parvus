@@ -128,29 +128,32 @@ end)
 local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"ATVCrashsiteRenegade01",false},{"BankTruckRobbery01",false},{"BeachedAluminumBoat01",false},{"BeechcraftGemBroker01",false},
     {"CampSovietBandit01",false},{"ConstructionWorksite01",false},{"CrashPrisonBus01",false},{"DryGhillieSpawner01",true},
-    {"FuneralProcession01",false},{"GraveFresh01",false},{"GraveNumberOne1",false},{"LifePreserverMilitary01",true},
-    {"LifePreserverSoviet01",false},{"LifePreserverSpecOps01",true},{"MilitaryBlockade01",false},{"MilitaryConvoy01",true},
+    {"FuneralProcession01",false},{"GraveFresh01",false},{"GraveNumberOne1",false},{"LifePreserverMilitary01",false},
+    {"LifePreserverSoviet01",false},{"LifePreserverSpecOps01",true},{"MilitaryBlockade01",false},{"MilitaryConvoy01",false},
     {"ParamedicScene01",false},{"PartyTrailerDisco01",false},{"PartyTrailerTechnoGold",false},{"PartyTrailerTechnoGoldDeagleMod1",false},
-    {"PirateTreasure01",true},{"PoliceBlockade01",false},{"PoolsClosed01",false},{"PopupCampsite01",false},
+    {"PirateTreasure01",false},{"PoliceBlockade01",false},{"PoolsClosed01",false},{"PopupCampsite01",false},
     {"PopupFishing01",false},{"PopupFishing02",false},{"RaiderConvoy01",true},{"RaiderFight01",true},
     {"RaiderFight02",true},{"RaiderWanderer01",true},{"RandomCrashCessna01",false},{"SeahawkCrashsite04",true},
     {"SeahawkCrashsite05",true},{"SeahawkCrashsite06",true},{"SeahawkCrashsite07",true},{"SeahawkCrashsiteRogue01",true},
-    {"SedanHaul01",false},{"SpecialForcesCrash01",true},{"StashFood01",false},{"StashFood02",false},
+    {"SedanHaul01",false},{"SpecialForcesCrash01",false},{"StashFood01",false},{"StashFood02",false},
     {"StashFood03",false},{"StashGeneral01",false},{"StashGeneral02",false},{"StashGeneral03",false},
     {"StashMedical01",false},{"StashMedical02",false},{"StashMedical03",false},{"StashWeaponHigh01",false},
     {"StashWeaponHigh02",false},{"StashWeaponHigh03",false},{"StashWeaponMid01",false},{"StashWeaponMid02",false},
-    {"StashWeaponMid03",false},{"StrandedStation01",false},{"StrandedStationKeyboard01",false}
+    {"StashWeaponMid03",false},{"StrandedStation01",false},{"StrandedStationKeyboard01",false},
+    {"ChristmasSantaSleigh02",true},{"ChristmasSantaSleigh04",true},{"GhillieGiftBoxEvent",true},{"ChristmasSnowmanWreck01",true},{"CaveCaveman01",true},
+    {"SnowmanStructure01",true},{"SnowmanStructure02",true},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true},
+
 },
 {
     {"Containers",false},{"Accessories",true},{"Ammo",false},{"Attachments",false},
-    {"Backpacks",false},{"Belts",true},{"Clothing",true},{"Consumables",true},
-    {"Firearms",false},{"Hats",true},{"Medical",false},{"Melees",false},
+    {"Backpacks",false},{"Belts",true},{"Clothing",true},{"Consumables",false},
+    {"Firearms",true},{"Hats",true},{"Medical",false},{"Melees",false},
     {"Miscellaneous",false},{"Utility",false},{"VehicleParts",false},{"Vests",true}
 },
 {
     {"Presets.Behavior Boss Level 01",true},{"Presets.Behavior Boss Level 02",true},{"Presets.Behavior Boss Level 03",true},
     {"Presets.Behavior Common Level 01",false},{"Presets.Behavior Common Level 02",false},{"Presets.Behavior Common Level 03",false},
-    {"Presets.Behavior Common Thrall Level 01",false},{"Presets.Behavior MiniBoss Level 01",false},{"Presets.Behavior MiniBoss Level 02",false},
+    {"Presets.Behavior Common Thrall Level 01",false},{"Presets.Behavior MiniBoss Level 01",true},{"Presets.Behavior MiniBoss Level 02",true},
     {"Presets.Skin Tone Dark",false},{"Presets.Skin Tone Dark Servant",false},{"Presets.Skin Tone Light",false},{"Presets.Skin Tone LightMid",false},
     {"Presets.Skin Tone LightMidDark",false},{"Presets.Skin Tone Mid",false},{"Presets.Skin Tone MidDark",false},{"Presets.Skin Tone Servant",false}
 },
