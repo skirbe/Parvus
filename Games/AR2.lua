@@ -141,7 +141,7 @@ local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"StashWeaponHigh02",false},{"StashWeaponHigh03",false},{"StashWeaponMid01",false},{"StashWeaponMid02",false},
     {"StashWeaponMid03",false},{"StrandedStation01",false},{"StrandedStationKeyboard01",false},
     {"ChristmasSantaSleigh02",true},{"ChristmasSantaSleigh04",true},{"GhillieGiftBoxEvent",true},{"ChristmasSnowmanWreck01",true},{"CaveCaveman01",true},
-    {"SnowmanStructure01",true},{"SnowmanStructure02",true},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true},
+    {"SnowmanStructure01",true},{"SnowmanStructure02",true},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true}
 
 },
 {
