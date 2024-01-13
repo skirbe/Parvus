@@ -140,8 +140,9 @@ local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"StashMedical01",false},{"StashMedical02",false},{"StashMedical03",false},{"StashWeaponHigh01",false},
     {"StashWeaponHigh02",false},{"StashWeaponHigh03",false},{"StashWeaponMid01",false},{"StashWeaponMid02",false},
     {"StashWeaponMid03",false},{"StrandedStation01",false},{"StrandedStationKeyboard01",false},
-    {"ChristmasSantaSleigh02",true},{"ChristmasSantaSleigh03",true},{"ChristmasSantaSleigh04",true},{"GhillieGiftBoxEvent",true},{"ChristmasSnowmanWreck01",true},{"CaveCaveman01",true},
-    {"SnowmanStructure01",false},{"SnowmanStructure02",false},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true},
+    {"ChristmasSantaSleigh01",true},{"ChristmasSantaSleigh02",true},{"ChristmasSantaSleigh03",true},{"ChristmasSantaSleigh04",true},
+    {"GhillieGiftBoxEvent",true},{"ChristmasSnowmanWreck01",true},{"CaveCaveman01",true},
+    {"SnowmanStructure01",true},{"SnowmanStructure02",true},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true},
     {"MusherLost01",true}
 
 },
