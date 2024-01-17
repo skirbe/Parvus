@@ -338,9 +338,9 @@ local Window = Parvus.Utilities.UI:Window({
             ZombiesSection:Dropdown({Name = "ESP List",Flag = "AR2/Zombies",List = ZIs})
         end
         local RESection = ESPTab:Section({Name = "Random Events ESP",Side = "Right"}) do local REs = {}
-            RESection:Toggle({Name = "Enabled",Flag = "AR2/ESP/RandomEvents/Enabled",Value = false})
+            RESection:Toggle({Name = "Enabled",Flag = "AR2/ESP/RandomEvents/Enabled",Value = true})
             RESection:Toggle({Name = "Distance Check",Flag = "AR2/ESP/RandomEvents/DistanceCheck",Value = true})
-            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 5000,Value = 1500,Unit = "studs"})
+            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 5000,Value = 5000,Unit = "studs"})
 
             for Index,Data in pairs(RandomEvents) do
                 local REFlag = "AR2/ESP/RandomEvents/" .. Data[1]
@@ -550,12 +550,12 @@ local Window = Parvus.Utilities.UI:Window({
                     end table.clear(NoClipObjects)
                 end
             end}):Keybind()
-            MiscSection:Toggle({Name = "Map ESP",Flag = "AR2/MapESP",Value = false})
-            MiscSection:Toggle({Name = "Staff Join",Flag = "AR2/StaffJoin",Value = false})
+            MiscSection:Toggle({Name = "Map ESP",Flag = "AR2/MapESP",Value = true})
+            MiscSection:Toggle({Name = "Staff Join",Flag = "AR2/StaffJoin",Value = true})
             MiscSection:Dropdown({HideName = true,Flag = "AR2/StaffJoin/List",List = {
                 {Name = "Server Hop",Mode = "Button",Value = false},
-                {Name = "Notify",Mode = "Button",Value = true},
-                {Name = "Kick",Mode = "Button",Value = false}
+                {Name = "Notify",Mode = "Button",Value = false},
+                {Name = "Kick",Mode = "Button",Value = true}
             }})
         end
     end Parvus.Utilities:SettingsSection(Window,"End",true)
