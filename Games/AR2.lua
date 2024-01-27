@@ -129,21 +129,21 @@ local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"ATVCrashsiteRenegade01",false},{"BankTruckRobbery01",false},{"BeachedAluminumBoat01",false},{"BeechcraftGemBroker01",false},
     {"CampSovietBandit01",false},{"ConstructionWorksite01",false},{"CrashPrisonBus01",false},{"DryGhillieSpawner01",true},
     {"FuneralProcession01",false},{"GraveFresh01",false},{"GraveNumberOne1",false},{"LifePreserverMilitary01",false},
-    {"LifePreserverSoviet01",false},{"LifePreserverSpecOps01",true},{"MilitaryBlockade01",false},{"MilitaryConvoy01",false},
+    {"LifePreserverSoviet01",false},{"LifePreserverSpecOps01",false},{"MilitaryBlockade01",false},{"MilitaryConvoy01",false},
     {"ParamedicScene01",false},{"PartyTrailerDisco01",false},{"PartyTrailerTechnoGold",false},{"PartyTrailerTechnoGoldDeagleMod1",false},
     {"PirateTreasure01",false},{"PoliceBlockade01",false},{"PoolsClosed01",false},{"PopupCampsite01",false},
-    {"PopupFishing01",false},{"PopupFishing02",false},{"RaiderConvoy01",true},{"RaiderFight01",true},
-    {"RaiderFight02",true},{"RaiderWanderer01",true},{"RandomCrashCessna01",false},{"SeahawkCrashsite04",true},
-    {"SeahawkCrashsite05",true},{"SeahawkCrashsite06",true},{"SeahawkCrashsite07",true},{"SeahawkCrashsiteRogue01",true},
+    {"PopupFishing01",false},{"PopupFishing02",false},{"RaiderConvoy01",false},{"RaiderFight01",false},
+    {"RaiderFight02",false},{"RaiderWanderer01",false},{"RandomCrashCessna01",false},
+    {"SeahawkCrashsite05",true},{"SeahawkCrashsite06",true},{"SeahawkCrashsite07",true},{"SeahawkCrashsiteRogue01",true},{"SeahawkCrashsite04",true},
     {"SedanHaul01",false},{"SpecialForcesCrash01",false},{"StashFood01",false},{"StashFood02",false},
     {"StashFood03",false},{"StashGeneral01",false},{"StashGeneral02",false},{"StashGeneral03",false},
     {"StashMedical01",false},{"StashMedical02",false},{"StashMedical03",false},{"StashWeaponHigh01",false},
     {"StashWeaponHigh02",false},{"StashWeaponHigh03",false},{"StashWeaponMid01",false},{"StashWeaponMid02",false},
     {"StashWeaponMid03",false},{"StrandedStation01",false},{"StrandedStationKeyboard01",false},
-    {"ChristmasSantaSleigh01",true},{"ChristmasSantaSleigh02",true},{"ChristmasSantaSleigh03",true},{"ChristmasSantaSleigh04",true},
-    {"GhillieGiftBoxEvent",true},{"ChristmasSnowmanWreck01",true},{"CaveCaveman01",true},
-    {"SnowmanStructure01",true},{"SnowmanStructure02",true},{"SnowmobileCrashBlue01",true},{"SnowmobileCrashGreen01",true},{"SnowmobileCrashOrange01",true},
-    {"MusherLost01",true}
+    {"ChristmasSantaSleigh01",false},{"ChristmasSantaSleigh02",false},{"ChristmasSantaSleigh03",false},{"ChristmasSantaSleigh04",false},
+    {"GhillieGiftBoxEvent",false},{"ChristmasSnowmanWreck01",false},{"CaveCaveman01",false},
+    {"SnowmanStructure01",false},{"SnowmanStructure02",false},{"SnowmobileCrashBlue01",false},{"SnowmobileCrashGreen01",false},{"SnowmobileCrashOrange01",false},
+    {"MusherLost01",false}
 
 },
 {
@@ -340,7 +340,7 @@ local Window = Parvus.Utilities.UI:Window({
         local RESection = ESPTab:Section({Name = "Random Events ESP",Side = "Right"}) do local REs = {}
             RESection:Toggle({Name = "Enabled",Flag = "AR2/ESP/RandomEvents/Enabled",Value = true})
             RESection:Toggle({Name = "Distance Check",Flag = "AR2/ESP/RandomEvents/DistanceCheck",Value = true})
-            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 5000,Value = 5000,Unit = "studs"})
+            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 10000,Value = 10000,Unit = "studs"})
 
             for Index,Data in pairs(RandomEvents) do
                 local REFlag = "AR2/ESP/RandomEvents/" .. Data[1]
