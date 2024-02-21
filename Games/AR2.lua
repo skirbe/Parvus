@@ -191,7 +191,7 @@ local Window = Parvus.Utilities.UI:Window({
 }) do
 
     local CombatTab = Window:Tab({Name = "Combat"}) do
-        [[local AimbotSection = CombatTab:Section({Name = "Aimbot",Side = "Left"}) do
+        --[[local AimbotSection = CombatTab:Section({Name = "Aimbot",Side = "Left"}) do
             AimbotSection:Toggle({Name = "Enabled",Flag = "Aimbot/Enabled",Value = false})
             :Keybind({Flag = "Aimbot/Keybind",Value = "MouseButton2",Mouse = true,DisableToggle = true,
             Callback = function(Key,KeyDown) Aimbot = Window.Flags["Aimbot/Enabled"] and KeyDown end})
@@ -251,7 +251,7 @@ local Window = Parvus.Utilities.UI:Window({
             --SAFOVSection:Slider({Name = "NumSides",Flag = "SilentAim/FOVCircle/NumSides",Min = 3,Max = 100,Value = 14})
             SAFOVSection:Slider({Name = "Thickness",Flag = "SilentAim/FOVCircle/Thickness",Min = 1,Max = 10,Value = 2})
         end
-        [[local TriggerSection = CombatTab:Section({Name = "Trigger",Side = "Right"}) do
+        --[[local TriggerSection = CombatTab:Section({Name = "Trigger",Side = "Right"}) do
             TriggerSection:Toggle({Name = "Enabled",Flag = "Trigger/Enabled",Value = false})
             :Keybind({Flag = "Trigger/Keybind",Value = "MouseButton2",Mouse = true,DisableToggle = true,
             Callback = function(Key,KeyDown) Trigger = Window.Flags["Trigger/Enabled"] and KeyDown end})
