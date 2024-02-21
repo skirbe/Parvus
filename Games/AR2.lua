@@ -340,7 +340,7 @@ local Window = Parvus.Utilities.UI:Window({
         local RESection = ESPTab:Section({Name = "Random Events ESP",Side = "Right"}) do local REs = {}
             RESection:Toggle({Name = "Enabled",Flag = "AR2/ESP/RandomEvents/Enabled",Value = true})
             RESection:Toggle({Name = "Distance Check",Flag = "AR2/ESP/RandomEvents/DistanceCheck",Value = true})
-            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 10000,Value = 10000,Unit = "studs"})
+            RESection:Slider({Name = "Distance",Flag = "AR2/ESP/RandomEvents/Distance",Min = 25,Max = 15000,Value = 15000,Unit = "studs"})
 
             for Index,Data in pairs(RandomEvents) do
                 local REFlag = "AR2/ESP/RandomEvents/" .. Data[1]
