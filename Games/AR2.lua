@@ -134,7 +134,7 @@ local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"PirateTreasure01",false},{"PoliceBlockade01",false},{"PoolsClosed01",false},{"PopupCampsite01",false},
     {"PopupFishing01",false},{"PopupFishing02",false},{"RaiderConvoy01",false},{"RaiderFight01",false},
     {"RaiderFight02",false},{"RaiderWanderer01",false},{"RandomCrashCessna01",false},
-    {"SeahawkCrashsite05",true},{"SeahawkCrashsite06",true},{"SeahawkCrashsite07",true},{"SeahawkCrashsiteRogue01",true},{"SeahawkCrashsite04",true},{"SeahawkCrashsite07Dry",True},
+    {"SeahawkCrashsite05",true},{"SeahawkCrashsite06",true},{"SeahawkCrashsite07",true},{"SeahawkCrashsiteRogue01",true},{"SeahawkCrashsite04",true},{"SeahawkCrashsite07Dry",True},{"SeahawkCrashsite05Dry",True},
     {"SedanHaul01",false},{"SpecialForcesCrash01",false},{"StashFood01",false},{"StashFood02",false},
     {"StashFood03",false},{"StashGeneral01",false},{"StashGeneral02",false},{"StashGeneral03",false},
     {"StashMedical01",false},{"StashMedical02",false},{"StashMedical03",false},{"StashWeaponHigh01",false},
