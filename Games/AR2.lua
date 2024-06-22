@@ -143,7 +143,7 @@ local RandomEvents,ItemCategory,ZombieInherits,SanityBans,AdminRoles = {
     {"ChristmasSantaSleigh01",false},{"ChristmasSantaSleigh02",false},{"ChristmasSantaSleigh03",false},{"ChristmasSantaSleigh04",false},
     {"GhillieGiftBoxEvent",false},{"ChristmasSnowmanWreck01",false},{"CaveCaveman01",false},
     {"SnowmanStructure01",false},{"SnowmanStructure02",false},{"SnowmobileCrashBlue01",false},{"SnowmobileCrashGreen01",false},{"SnowmobileCrashOrange01",false},
-    {"MusherLost01",false},{"ValentinesBachelor01",True},{"C-123ProviderMilitary02Dry",True},{"MilitaryConvoy01Dry",True},{"SpecialForcesCrash01Dry",True}
+    {"MusherLost01",false},{"ValentinesBachelor01",True},{"C-123ProviderMilitary02Dry",True},{"MilitaryConvoy01Dry",True},{"SpecialForcesCrash01Dry",True},{"MotorcycleBigBossEva01",True}
 
 },
 {
